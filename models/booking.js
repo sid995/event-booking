@@ -13,7 +13,7 @@ const bookingSchema = new Schema(
       ref: 'User'
     }
   },
-  { timeStamps: true }
+  { timestamps: true }
 )
 
 module.exports = mongoose.model('Booking', bookingSchema)
