@@ -27,7 +27,9 @@ mongoose
     { useNewUrlParser: true }
   )
   .then(() => {
-    app.listen(PORT)
+    app.listen(PORT, () => {
+      console.log(`Server started at port ${PORT}`)
+    })
   })
   .catch(err => {
     console.log(err)
