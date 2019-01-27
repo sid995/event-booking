@@ -11,7 +11,7 @@ const app = express()
 
 app.use(bodyParser.json())
 
-const PORT = 3000
+const PORT = 8800
 
 app.use(isAuth)
 
