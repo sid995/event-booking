@@ -205,7 +205,6 @@ class EventsPage extends Component {
   componentWillUnmount() {
     this.isActive = false
   }
-
   render() {
     return (
       <React.Fragment>
